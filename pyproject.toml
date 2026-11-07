@@ -1,4 +1,21 @@
+[project]
+name = "datatype-lab"
+version = "1.0.0"
+description = "Interactive benchmark laboratory for NumPy data type memory, speed, and precision analysis."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Divyanshu Sinha" }]
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.36,<2.0",
+    "numpy>=1.26,<3.0",
+    "pandas>=2.1,<4.0",
+    "plotly>=5.22,<7.0",
+]
+
+[project.urls]
+Repository = "https://github.com/di0206-innovator/Data-Type-Memory-Performance-Benchmark-Lab-Divyanshu"
+
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]
-

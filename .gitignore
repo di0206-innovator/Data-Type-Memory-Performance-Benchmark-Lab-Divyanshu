@@ -1,10 +1,37 @@
+# Virtual environments
 .venv/
 venv/
+env/
+
+# Python bytecode
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Test & coverage artifacts
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
 .streamlit/
+
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
+
+# Editor directories
+.idea/
+.vscode/
+
+# Exported benchmark results (generated at runtime)
 *.csv
 benchmark_environment.json

@@ -3,9 +3,9 @@
 **Project type:** AI/ML laboratory project  
 **Implementation:** Python, NumPy, Streamlit, Plotly  
 **Student:** Divyanshu Sinha  
-**Course / Section:** Essentials Of A  
-**Instructor:** [Enter instructor name]  
-**Submission date:** [Enter date]
+**Course / Section:** Essentials Of AI/ Section B  
+**Instructor:** Sonali Rai
+**Submission date:** 16th November 2026
 
 ---
 
