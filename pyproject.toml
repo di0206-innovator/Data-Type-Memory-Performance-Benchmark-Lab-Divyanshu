@@ -3,7 +3,6 @@ name = "datatype-lab"
 version = "1.0.0"
 description = "Interactive benchmark laboratory for NumPy data type memory, speed, and precision analysis."
 readme = "README.md"
-license = { file = "LICENSE" }
 authors = [{ name = "Divyanshu Sinha" }]
 requires-python = ">=3.11"
 dependencies = [

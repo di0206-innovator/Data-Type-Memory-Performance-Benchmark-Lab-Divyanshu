@@ -5,7 +5,6 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-2.x-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.67-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![CI](https://github.com/di0206-innovator/Data-Type-Memory-Performance-Benchmark-Lab-Divyanshu/actions/workflows/tests.yml/badge.svg)](https://github.com/di0206-innovator/Data-Type-Memory-Performance-Benchmark-Lab-Divyanshu/actions/workflows/tests.yml)
 [![Tests](https://img.shields.io/badge/tests-6%20passed-brightgreen)](tests/)
 
@@ -86,8 +85,6 @@ DataType-Lab-GitHub-Project/
 ├── pyproject.toml              # Project metadata and pytest configuration
 ├── requirements.txt            # Runtime dependencies
 ├── requirements-dev.txt        # Dev/test dependencies
-├── CONTRIBUTING.md             # Developer guide
-├── LICENSE                     # MIT License
 └── README.md                   # This file
 ```
 
@@ -138,8 +135,3 @@ The test suite covers:
 
 - **Value ranges safe for all dtypes** — Generated integers are in `[-2, 3)` (signed) or `[0, 5)` (unsigned), and floats in `[-1.0, 1.0)`. This prevents overflow in `int8` add/multiply benchmarks without needing dtype-specific test data.
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
