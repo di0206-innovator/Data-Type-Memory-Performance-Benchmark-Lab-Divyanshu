@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/
+.DS_Store
+Thumbs.db
+*.csv
+benchmark_environment.json
